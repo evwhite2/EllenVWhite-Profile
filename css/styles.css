@@ -1,0 +1,41 @@
+body{
+    background-color:#b3bde7fa;
+    height: 100vh;
+}
+
+.ellen-container{
+    background-color: #343a40;
+    padding:15px;
+}
+
+.ellen-photo{
+    float:left;
+    margin:3px;
+    max-height:300px;
+    max-width: 300px;
+    padding-right:5px;
+}
+
+.ellen-photo-bar{
+    height:25px;
+    background-color:#343a40;
+    color:white;
+    position: relative;
+    bottom: 40px;
+    width:100%;
+}
+
+.ellen-stock{
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    color:whitesmoke;
+}
+
+p{
+    padding:5px;
+}
+
