@@ -1,0 +1,82 @@
+body{
+    background-color:#b3bde7fa;
+    font-family: 'Roboto', sans-serif, 
+    height: 100vh;
+}
+
+
+.ellen-container{
+    background-color: #343a40;
+    padding:15px;
+}
+
+.ellen-photo{
+    border-radius: 20px;
+    float:left;
+    margin:3px;
+    max-height:300px;
+    max-width: 300px;
+    padding-right:5px;
+}
+
+.ellen-photo-bar{
+    height:25px;
+    background-color:rgb(52, 58, 64);
+    color:white;
+    position: relative;
+    bottom: 40px;
+    width:100%;
+}
+
+.ellen-stock{
+    float: center;
+    position: relative;
+    text-align: center;
+}
+
+.detsBody{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+
+.detsHead{
+    font-family: 'Questrial', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color:whitesmoke;
+    font-family: 'Questrial', sans-serif;
+}
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding:5px;
+}
+
+#foot{
+    align-content: center;
+    background-color:#343a40;
+    color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size:12px;
+    height:60px;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+/* @media only screen and (max-width: 995px){
+#ellen-container{
+    flex-direction: column-reverse;
+}
+}  */
