@@ -1,10 +1,23 @@
 body{
     background-color:#b3bde7fa;
-    font-family: 'Roboto', sans-serif, 
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
 }
 
+h2 {
+    color:whitesmoke;
+    font-family: 'Questrial', sans-serif;
+}
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding:5px;
+}
 
+/* classes */
 .ellen-container{
     background-color: #343a40;
     padding:15px;
@@ -47,19 +60,13 @@ body{
     padding: 10px;
     text-align: center;
 }
-h2 {
-    color:whitesmoke;
-    font-family: 'Questrial', sans-serif;
-}
-h3 {
-    font-family: 'Questrial', sans-serif;
-    font-size: 35px;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    padding:5px;
-}
 
+/* ids */
+#contactLinks{
+    border-radius: 20px;
+    color:whitesmoke;
+    max-height: 85%;
+}
 #foot{
     align-content: center;
     background-color:#343a40;
@@ -74,6 +81,13 @@ p{
     position: relative;
     text-align: center;
 }
+
+#submitMsg{
+    font-family: "questrial", sans-serif;
+    font-size:20px;
+    height:2.5rem;
+    width: 5rem;
+};
 
 /* @media only screen and (max-width: 995px){
 #ellen-container{
