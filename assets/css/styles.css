@@ -94,13 +94,15 @@ p{
 }
 
 .landing{
+    display: flex;
     height: 100%;
-    display: block;
+    justify-content: center;
     position: relative;
 }
 
 #welcome{
     font-family: "questrial", sans-serif;
+    font-size:65px;
     opacity:0;
     position: absolute;
     text-align:center;
