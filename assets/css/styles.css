@@ -61,6 +61,14 @@ p{
     text-align: center;
 }
 
+.landing{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+
 /* ids */
 #contactLinks{
     border-radius: 20px;
@@ -86,6 +94,16 @@ p{
     text-align: center;
 }
 
+#landing-sub{
+    color:grey;
+    font-family: "questrial", sans-serif;
+    font-size:35px;
+    opacity:1;
+    position: absolute;
+    text-align:center;
+    top:300px;
+}
+
 #submitMsg{
     font-family: "questrial", sans-serif;
     font-size:20px;
@@ -93,12 +111,6 @@ p{
     width: 5rem;
 }
 
-.landing{
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    position: relative;
-}
 
 #welcome{
     font-family: "questrial", sans-serif;

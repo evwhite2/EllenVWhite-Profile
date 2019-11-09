@@ -5,8 +5,11 @@ function mark(){
 
 var pos= 0;
 var opc= 0;
+var subPos=350;
+var subOpc=0;
 
-var landing = setInterval(land, 5);
+var landing = setInterval(land, 10);
+var subLanding= setInterval(subLand, 8);
 
     function land(){
 
@@ -16,6 +19,16 @@ var landing = setInterval(land, 5);
             pos++;
             opc= opc+0.01;
             $("#welcome").attr("style", `top:${pos}px;opacity:${opc}`);
+        }
+    }
+
+    function subLand(){
+        if (subPos== 165){
+            clearInterval(subLanding);
+        }else{
+            subPos--;
+            subOpc= subOpc+0.1;
+            $("#landing-sub").attr("style", `top:${subPos}px;opacity:${subOpc}`);
         }
     }
 
@@ -53,6 +66,7 @@ function disappear(){
                     // }
 
                     $("#welcome").attr("style", "display:none");
+                    $("#landing-sub").attr("style", "display:none");
                 }
 
             }   
