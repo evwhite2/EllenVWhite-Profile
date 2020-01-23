@@ -3,6 +3,8 @@ $(document).ready(function(){
 
 function mark(){
 
+$(".container").attr("style", "display: none");
+
 var pos= 0;
 var opc= 0;
 var subPos=350;
@@ -39,6 +41,9 @@ mark();
 
 function disappear(){
 
+    $(".container").attr("style", "display: block");
+
+    
     var toPage= setInterval(scroll, 10);
     var ht=100;
 
@@ -72,7 +77,6 @@ function disappear(){
             }   
 }
 
-// $(".landing").attr("style", "display:none")
 $(".landing").on("click", disappear);
 
 });
