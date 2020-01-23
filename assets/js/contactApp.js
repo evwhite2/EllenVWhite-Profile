@@ -1,22 +1,26 @@
-var usrName= "";
-var usrEmail="";
-var usrMsg="";
-
-
 function submitMsg(sendMail){
     sendMail.preventDefault();
 
-    usrName = $("#usrName").val().trim();
-    console.log(usrName);
+    var usrName = $("#usrName").val().trim();
+    var usrEmail= $("#usrEmail").val().trim();
+    var usrMsg = $("#msgCenter").val().trim();
 
-    usrEmail= $("#usrEmail").val().trim();
-    console.log(usrEmail);
+    var mailOptions = {
+        from: `<${usrEmail}>`,
+        to: `ewhitepainter@gmail.com`,
+        subject: `${usrName} <${usrEmail}> sent you a new message from yout site`,
+        text: `${usrMsg}`
+    };
 
-    usrMsg = $("#msgCenter").val().trim();
-    console.log(usrMsg);
 
-    window.location = "mailto:evwhite2@gmail.com?subject=New Email from "+usrName+" at "+usrEmail+" &body="+usrMsg;
+    $.ajax("/contact.html", {
+        type: "POST",
+        data: mailOptions
+    });
 
+    $("#confirmMail").attr("style", "display: block;")
 };
 
-$("#submitMsg").on("click", submitMsg);
+$("#contactForm").on("submit", submitMsg);
+
+
