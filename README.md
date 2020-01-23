@@ -1,14 +1,16 @@
-# responsive-portfolio
+# EllenVWhite-Portfolio
 
-https://evwhite2.github.io/responsive-portfolio/
+Welcome to my site! 
 
-Welcome to my site!
+Now deployed on Heroku at https://rocky-shore-56003.herokuapp.com/ 
 
-Site is now undergoing changes to include a few small animations I've learned using some vanilla JavaScript. 
+Site is continuously ungoing changes as I learn and build more projects. 
 
-My "Portfolio" page now includes links to my projects, and will continue to grow.
+Portfolio has been updated to include my most recent full-stack group project: TripBuddy, be sure to check it out.
 
-The "Contact Me" page now also works to open up an email client and auto-fill a new message upon clicking "submit". This will be updating to submit a real form seamlessless within a few weeks.
+The contact form now send an email directly to me for any inquiries through my site. 
+
+There are also a few styling updates, but nothing too noticable for now.
 
 Lastly, a link to my updated Resume can now be found on the navigation bar.
 
