@@ -18,6 +18,12 @@ p{
 }
 
 /* classes */
+
+.IMPORTANT{
+    text-align: center;
+    color:red;
+    font-size: large;
+}
 .ellen-container{
     background-color: #343a40;
     padding:15px;

@@ -1,21 +1,8 @@
-# EllenVWhite-Portfolio
+IMPORTANT: Portfolio is now being updated on https://evwhite-react-portfolio.herokuapp.com/.
 
-Welcome to my site! 
+This site, deployed on Heroku at https://evwhite-portfolio-1.herokuapp.com/ is no longer being updated as of February 2020.
 
-Now deployed on Heroku at https://rocky-shore-56003.herokuapp.com/ 
-
-Site is continuously ungoing changes as I learn and build more projects. 
-
-Portfolio has been updated to include my most recent full-stack group project: TripBuddy, be sure to check it out.
-
-The contact form now send an email directly to me for any inquiries through my site. 
-
-There are also a few styling updates, but nothing too noticable for now.
-
-Lastly, a link to my updated Resume can now be found on the navigation bar.
-
-
-Enjoy. :)
+_______________________________________
 
 
 P.S. If you're interested in my art, find my blog here: (Yes I realize it's sacrilegious for a developer to use WordPress for thier own portfolio, I promise I will build my own site in time)
