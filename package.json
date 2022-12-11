@@ -20,7 +20,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "email-templates": "^7.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.4.2"
   }
 }
